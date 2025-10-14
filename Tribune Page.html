@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tribute Page</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+</head>
+	 <!-- add an id and a class to all elements, and make them look good, and have the personal information take up more space -->
+<body>
+	<div class="container">
+	<form name="Company Survey" id="survey-form" action="/submit" method="post">
+
+		<h1 id="title">Company Survey</h1>
+
+	<p class="description" name="description" id="description">Thank you for your participation in this survey. Please take the survey & leave a remark to help with future company improvement.</p>
+		<fieldset name="user-info"
+		id="user-info" class="user-info">
+			
+			<title>Personal Information</title>
+			
+			<p id="personal-information"><strong>Personal Information</strong></p id="personal-information" class="personal-information" name="personal-information">
+			
+		<label for="full-name">Full Name: <input type="text" id="full-name" required/></label>
+			
+		<label for="gender">Gender: <select id="gender" requireed>
+			<option>(select one)</option>
+			<option>Male</option>
+			<option>Female</option>
+			<option>Other</option>
+			</select></label>
+			
+		<label for="address">Address: <input id="input" required></label>
+			
+		<label for="email">Email: <input type="email" id="email" name="email" required></label>
+			
+		<label for="phone-number">Phone Number: <input required></label>
+			
+		</fieldset>
+		
+		<fieldset class="user-questions">
+			
+			<title>Personal Questions</title>
+			
+			<p><strong>Question 1 - </strong><textarea class="Questions" id="Q1" type="text" rows="2" cols="20" placeholder="If only someone would click here..."></textarea></p>
+			
+			<p><strong>Question 2 - </strong><textarea class="Questions" id="Q2" rows="2" cols="20" placeholder="If only someone would click here..."></textarea> </p>
+			
+			<p><strong>Question 3 - </strong><textarea class="Questions" id="Q3" rows="2" cols="20" placeholder="If only someone would click here..."></textarea></p>
+			
+		</fieldset>
+		
+		<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+	
+</html>
