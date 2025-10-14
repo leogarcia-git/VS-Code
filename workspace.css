@@ -1,0 +1,58 @@
+body {
+    margin: 10;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: beige;
+    color:black;
+    text-align: justify;
+    outline: olive dashed 5px;
+}
+
+.main-container{
+  padding: 10px;
+}
+
+.top{
+  border-style: dashed;
+  margin: 5px;
+  padding-left: 15px
+}
+
+.about-me{
+  border-style: dashed;
+  margin: 5px;
+  height:fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.skills{
+  border-style: dashed;
+  margin: 5px;
+  height:fit-content;
+  padding-left: 15px;
+}
+
+.projects{
+  border-style: dashed;
+  margin: 5px;
+  height:fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hobbies{
+  border-style: dashed;
+  margin: 5px;
+  height:fit-content;
+  padding-left: 15px;
+}
+
+.volunteering{
+  border-style: dashed;
+  margin: 5px;
+  height:fit-content;
+  padding-left: 15px;
+}
+
